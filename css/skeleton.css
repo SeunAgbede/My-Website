@@ -25,7 +25,6 @@
 - Media Queries
 */
 
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -201,7 +200,7 @@ body {
 
 #mainprojects h5{
   margin-bottom: 0;
-  color: #ee1313;
+  color: #2663FF;
 }
 
 #mainprojects h5 a{
@@ -224,7 +223,7 @@ body {
 
 /* RESUME PAGE CSS */
 .material-icons.md-18{
-  color: #ee1313;
+  color: #2663FF;
   font-size: 18px;
 }
 
@@ -263,7 +262,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ee1313;
+  color: #2663FF;
   text-decoration: none;
   /* transition: .3s; */
 }
@@ -278,7 +277,7 @@ a {
 }
 
 #nav a:hover{
-  color: #ee1313;
+  color: #2663FF;
   transition: .3s;
 }
 
@@ -292,7 +291,7 @@ a {
 }
 
 #foot a:hover{
-  color: #ee1313;
+  color: #2663FF;
   transition: .3s;
 }
 
