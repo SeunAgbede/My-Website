@@ -159,6 +159,10 @@ body {
   padding-top: 1rem;
  }
 
+ #rights{
+   text-align: right;
+ }
+
  /* Animation for Home Page */
  #main{
   animation-name: slidein;
@@ -168,12 +172,13 @@ body {
 @keyframes slidein {
   0% {
     margin-top: 17%;
-    color: #fff;
+    opacity: 0;
    }
 
   100% {
     margin-top: 15%;
-    animation-timing-function: ease-in;
+    opacity: 1;
+    animation-timing-function: ease-out;
   }
 }
 
@@ -189,18 +194,19 @@ body {
 @keyframes slideinpro {
   0% {
     margin-left: 2rem;
-    color: #fff;
+    opacity: 0;
    }
 
   100% {
     margin-left: 0;
-    animation-timing-function: ease-in;
+    opacity: 1;
+    animation-timing-function: ease-out;
   }
 }
 
 #mainprojects h5{
   margin-bottom: 0;
-  color: #2663FF;
+  color: #EE5A24;
 }
 
 #mainprojects h5 a{
@@ -223,7 +229,7 @@ body {
 
 /* RESUME PAGE CSS */
 .material-icons.md-18{
-  color: #2663FF;
+  color: #EE5A24;
   font-size: 18px;
 }
 
@@ -262,7 +268,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #2663FF;
+  color: #EE5A24;
   text-decoration: none;
   /* transition: .3s; */
 }
@@ -276,11 +282,6 @@ a {
   transition: .3s;
 }
 
-#nav a:hover{
-  color: #2663FF;
-  transition: .3s;
-}
-
 #sidelinks a{
   margin: 0 1rem;
 }
@@ -291,7 +292,7 @@ a {
 }
 
 #foot a:hover{
-  color: #2663FF;
+  color: #EE5A24;
   transition: .3s;
 }
 
@@ -360,23 +361,34 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 300px) {
-  #mainprojects img{
-  width: 10rem;
-  padding-bottom: 1rem;
-}
-.about{
-  padding-bottom: 10rem;
-}
-
-.resume{
-  padding-bottom: 10rem;
-}
-#sidelinks{
-  text-align: center;
-}
-#logo h4{
-  text-align: center;
-}
+    #mainprojects img{
+    width: 10rem;
+    padding-bottom: 1rem;
+  }
+  .about{
+    padding-bottom: 10rem;
+  }
+  .resume{
+    padding-bottom: 10rem;
+  }
+  #main{
+    padding-bottom: 10rem;
+  }
+  #sidelinks{
+    text-align: center;
+  }
+  #logo h4{
+    text-align: center;
+  }
+  .container {
+    padding: 0 20px 0 20px;
+  }
+  #rights{
+    text-align: center;
+  }
+  #foot{
+    text-align: center;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -413,6 +425,12 @@ there.
   #sidelinks{
     text-align: right;
   }
+  #rights{
+    text-align: right;
+  }
+  #foot{
+    text-align: left;
+  }
 }
 
 /* Larger than Desktop HD */
@@ -424,5 +442,11 @@ there.
 
   #sidelinks{
     text-align: right;
+  }
+  #rights{
+    text-align: right;
+  }
+  #foot{
+    text-align: left;
   }
 }
