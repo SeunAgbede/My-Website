@@ -137,7 +137,7 @@ body {
  /* Animation for Home Page */
  #main{
   animation-name: slidein;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
 }
 
 @keyframes slidein {
@@ -157,7 +157,7 @@ body {
  /* Animation for Projects Page */
 #mainprojects{
   animation-name: slideinpro;
-  animation-duration: 0.9s;
+  animation-duration: 0.5s;
 }
 
 @keyframes slideinpro {
