@@ -107,9 +107,12 @@ body {
 }
 
 /* HOME PAGE CSS */
-  #logo h4{
-    font-family:'Nanum Pen Script', cursive; 
-    margin: 0;
+  #logo h5 a{
+    padding: 5px;
+    background-color: #2b2b2b;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 0;
   }
 
   #top{
@@ -193,7 +196,7 @@ body {
 }
 
 /* ABOUT PAGE CSS */
-#mainprojects img{
+img{
   width: 20rem;
   padding-bottom: 3rem;
 }
@@ -340,8 +343,9 @@ hr {
   #sidelinks{
     text-align: center;
   }
-  #logo h4{
+  #logo h5{
     text-align: center;
+    margin-bottom: 0;
   }
   .container {
     padding: 0 20px 0 20px;
@@ -372,6 +376,11 @@ hr {
     width: 15rem;
     padding-bottom: 3rem;
   }
+  
+  #logo h5{
+    text-align: left;
+    margin-bottom: 0;
+  }
 
   #sidelinks{
     text-align: right;
@@ -394,6 +403,12 @@ hr {
   #foot{
     text-align: left;
   }
+
+  #logo h5{
+    text-align: left;
+    margin-bottom: 0;
+  }
+
 }
 
 /* Larger than Desktop HD */
@@ -412,4 +427,10 @@ hr {
   #foot{
     text-align: left;
   }
+  
+  #logo h5{
+    text-align: left;
+    margin-bottom: 0;
+  }
+
 }
